@@ -409,9 +409,9 @@ public class MembershipFeeTracker {
         }
 
         System.out.println("\n==== Manage Payments ====");
-        System.out.println("Select a student:");
+        System.out.println("Available Students:");
         viewAllStudents(students);
-        System.out.print("Enter Student ID: ");
+        System.out.print("Enter No.: ");
         int studentIndex = scanner.nextInt() - 1;
         scanner.nextLine(); // Consume newline
 
